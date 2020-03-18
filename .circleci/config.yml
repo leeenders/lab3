@@ -6,9 +6,9 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Install dependencies
-        command: |
-          yarn --frozen-lockfile
+          name: Install dependencies
+          command: |
+            yarn --frozen-lockfile
 
 workflows:
   build-and-packge:
