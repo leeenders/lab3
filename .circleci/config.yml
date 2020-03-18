@@ -11,6 +11,6 @@ jobs:
         yarn --frozen-lockfile
 
 workflows:
-  build-and-pckge:
+  build-and-packge:
     jobs:
       - build
