@@ -7,7 +7,7 @@ jobs:
     - checkout
     - run:
       name: Install dependencies
-      command:
+      command: |
         yarn --frozen-lockfile
 
 workflows:
